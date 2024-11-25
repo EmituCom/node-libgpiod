@@ -1,5 +1,5 @@
 // Prevent module being loaded on anything other than Linux
-const os = require('node:os');
+const os = require('os');
 
 if (os.type() === 'Linux') {
 	// Entry point
